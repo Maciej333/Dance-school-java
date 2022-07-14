@@ -1,9 +1,9 @@
-package s18454.diploma.service;
+package mr.danceschool.service;
 
+import mr.danceschool.dao.PassRepository;
+import mr.danceschool.entity.Pass;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import s18454.diploma.dao.PassRepository;
-import s18454.diploma.entity.Pass;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package s18454.diploma.utils;
+package mr.danceschool.utils;
 
 public enum GroupStatus {
     OPEN, CLOSE

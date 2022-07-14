@@ -1,10 +1,10 @@
-package s18454.diploma.service;
+package mr.danceschool.service;
 
+import mr.danceschool.dao.AnnouncementRepository;
+import mr.danceschool.entity.Announcement;
+import mr.danceschool.entity.Group;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import s18454.diploma.dao.AnnouncementRepository;
-import s18454.diploma.entity.Announcement;
-import s18454.diploma.entity.Group;
 
 import java.util.List;
 import java.util.Optional;

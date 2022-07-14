@@ -1,13 +1,13 @@
-package s18454.diploma.controller;
+package mr.danceschool.controller;
 
+import mr.danceschool.entity.Announcement;
+import mr.danceschool.entity.Group;
+import mr.danceschool.service.GroupService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import s18454.diploma.entity.Announcement;
-import s18454.diploma.entity.Group;
-import s18454.diploma.service.AnnouncementService;
-import s18454.diploma.service.GroupService;
+import mr.danceschool.service.AnnouncementService;
 
 import java.util.*;
 

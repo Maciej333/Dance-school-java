@@ -1,8 +1,8 @@
-package s18454.diploma.entity;
+package mr.danceschool.entity;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import s18454.diploma.utils.Role;
+import mr.danceschool.utils.Role;
 
 import javax.persistence.*;
 import java.util.Date;

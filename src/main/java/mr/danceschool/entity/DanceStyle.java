@@ -1,4 +1,4 @@
-package s18454.diploma.entity;
+package mr.danceschool.entity;
 
 import com.fasterxml.jackson.annotation.*;
 

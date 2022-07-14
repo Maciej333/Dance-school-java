@@ -1,15 +1,17 @@
-package s18454.diploma.controller;
+package mr.danceschool.controller;
 
+import mr.danceschool.entity.*;
+import mr.danceschool.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import s18454.diploma.entity.*;
-import s18454.diploma.service.*;
-import s18454.diploma.utils.Gender;
-import s18454.diploma.utils.Role;
+import mr.danceschool.entity.*;
+import mr.danceschool.service.*;
+import mr.danceschool.utils.Gender;
+import mr.danceschool.utils.Role;
 
 import java.util.ArrayList;
 import java.util.Date;

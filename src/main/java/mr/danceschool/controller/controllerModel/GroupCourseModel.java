@@ -1,8 +1,8 @@
-package s18454.diploma.controller.controllerModel;
+package mr.danceschool.controller.controllerModel;
 
-import s18454.diploma.utils.DanceLevel;
-import s18454.diploma.utils.Gender;
-import s18454.diploma.utils.GroupStatus;
+import mr.danceschool.utils.DanceLevel;
+import mr.danceschool.utils.Gender;
+import mr.danceschool.utils.GroupStatus;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;

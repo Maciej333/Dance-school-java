@@ -1,4 +1,4 @@
-package s18454.diploma.controller.controllerModel;
+package mr.danceschool.controller.controllerModel;
 
 public class ResponseMsg {
     private int status;

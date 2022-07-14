@@ -1,13 +1,13 @@
-package s18454.diploma.controller;
+package mr.danceschool.controller;
 
+import mr.danceschool.entity.EmployeeInstructor;
+import mr.danceschool.entity.Group;
+import mr.danceschool.entity.GroupCourse;
+import mr.danceschool.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import s18454.diploma.entity.EmployeeInstructor;
-import s18454.diploma.entity.Group;
-import s18454.diploma.entity.GroupCourse;
-import s18454.diploma.service.EmployeeService;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

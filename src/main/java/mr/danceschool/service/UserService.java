@@ -1,6 +1,6 @@
-package s18454.diploma.service;
+package mr.danceschool.service;
 
-import s18454.diploma.entity.User;
+import mr.danceschool.entity.User;
 
 import java.util.List;
 

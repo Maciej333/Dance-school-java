@@ -1,25 +1,27 @@
-package s18454.diploma.controller;
+package mr.danceschool.controller;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import mr.danceschool.controller.controllerModel.ResponseMsg;
+import mr.danceschool.controller.controllerModel.UserEmployeeModel;
+import mr.danceschool.controller.controllerModel.UserStudnetModel;
+import mr.danceschool.entity.*;
+import mr.danceschool.service.DanceStyleService;
+import mr.danceschool.service.EmployeeService;
+import mr.danceschool.service.StudentService;
+import mr.danceschool.service.UserService;
+import mr.danceschool.utils.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
-import s18454.diploma.controller.controllerModel.ResponseMsg;
-import s18454.diploma.controller.controllerModel.UserEmployeeModel;
-import s18454.diploma.controller.controllerModel.UserStudnetModel;
-import s18454.diploma.entity.*;
-import s18454.diploma.service.DanceStyleService;
-import s18454.diploma.service.EmployeeService;
-import s18454.diploma.service.StudentService;
-import s18454.diploma.service.UserService;
-import s18454.diploma.utils.Role;
+import mr.danceschool.entity.*;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

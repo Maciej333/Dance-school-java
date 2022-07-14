@@ -1,4 +1,4 @@
-package s18454.diploma.config;
+package mr.danceschool.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,10 +14,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
-import s18454.diploma.security.DiplomaAuthenticationFilter;
-import s18454.diploma.security.DiplomaAuthorizationFilter;
-import s18454.diploma.service.UserService;
-import s18454.diploma.utils.Role;
+import mr.danceschool.security.DiplomaAuthenticationFilter;
+import mr.danceschool.security.DiplomaAuthorizationFilter;
+import mr.danceschool.service.UserService;
+import mr.danceschool.utils.Role;
 import java.util.Arrays;
 
 @Configuration @EnableWebSecurity

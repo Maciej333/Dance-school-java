@@ -1,8 +1,8 @@
-package s18454.diploma.dao;
+package mr.danceschool.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import s18454.diploma.entity.Announcement;
-import s18454.diploma.entity.Group;
+import mr.danceschool.entity.Announcement;
+import mr.danceschool.entity.Group;
 
 import java.util.List;
 

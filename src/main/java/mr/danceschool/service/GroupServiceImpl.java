@@ -1,12 +1,12 @@
-package s18454.diploma.service;
+package mr.danceschool.service;
 
+import mr.danceschool.dao.GroupChoreoRepository;
+import mr.danceschool.dao.GroupRepository;
+import mr.danceschool.entity.Group;
+import mr.danceschool.entity.GroupChoreo;
+import mr.danceschool.utils.GroupStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import s18454.diploma.dao.GroupChoreoRepository;
-import s18454.diploma.dao.GroupRepository;
-import s18454.diploma.entity.Group;
-import s18454.diploma.entity.GroupChoreo;
-import s18454.diploma.utils.GroupStatus;
 
 import java.util.List;
 import java.util.Optional;

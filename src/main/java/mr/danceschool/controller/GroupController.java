@@ -1,14 +1,20 @@
-package s18454.diploma.controller;
+package mr.danceschool.controller;
 
+import mr.danceschool.controller.controllerModel.GroupChoreoModel;
+import mr.danceschool.controller.controllerModel.GroupCourseModel;
+import mr.danceschool.controller.controllerModel.ResponseMsg;
+import mr.danceschool.entity.*;
+import mr.danceschool.service.*;
+import mr.danceschool.utils.DanceLevel;
+import mr.danceschool.utils.GroupStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import s18454.diploma.controller.controllerModel.*;
-import s18454.diploma.entity.*;
-import s18454.diploma.service.*;
-import s18454.diploma.utils.DanceLevel;
-import s18454.diploma.utils.GroupStatus;
+import mr.danceschool.controller.controllerModel.*;
+import mr.danceschool.entity.*;
+import mr.danceschool.service.*;
+
 import java.util.*;
 
 @RestController

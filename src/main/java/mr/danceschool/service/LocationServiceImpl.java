@@ -1,10 +1,10 @@
-package s18454.diploma.service;
+package mr.danceschool.service;
 
+import mr.danceschool.dao.LocationRepository;
+import mr.danceschool.entity.Location;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import s18454.diploma.dao.LocationRepository;
-import s18454.diploma.entity.Location;
 
 import java.util.List;
 import java.util.Optional;

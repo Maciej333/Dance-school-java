@@ -1,4 +1,4 @@
-package s18454.diploma.utils;
+package mr.danceschool.utils;
 
 import org.springframework.security.core.GrantedAuthority;
 

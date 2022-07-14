@@ -1,6 +1,6 @@
-package s18454.diploma.controller.controllerModel;
+package mr.danceschool.controller.controllerModel;
 
-import s18454.diploma.utils.Gender;
+import mr.danceschool.utils.Gender;
 
 public class UserStudnetModel {
     private String login;

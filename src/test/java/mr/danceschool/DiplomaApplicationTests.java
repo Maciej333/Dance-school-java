@@ -1,4 +1,4 @@
-package s18454.diploma;
+package mr.danceschool;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

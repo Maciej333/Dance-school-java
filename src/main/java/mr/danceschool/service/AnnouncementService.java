@@ -1,7 +1,7 @@
-package s18454.diploma.service;
+package mr.danceschool.service;
 
-import s18454.diploma.entity.Announcement;
-import s18454.diploma.entity.Group;
+import mr.danceschool.entity.Announcement;
+import mr.danceschool.entity.Group;
 
 import java.util.List;
 

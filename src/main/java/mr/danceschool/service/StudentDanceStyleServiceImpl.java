@@ -1,9 +1,9 @@
-package s18454.diploma.service;
+package mr.danceschool.service;
 
+import mr.danceschool.dao.StudentDanceStyleRepository;
+import mr.danceschool.entity.StudentDanceStyle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import s18454.diploma.dao.StudentDanceStyleRepository;
-import s18454.diploma.entity.StudentDanceStyle;
 
 import java.util.List;
 import java.util.Optional;

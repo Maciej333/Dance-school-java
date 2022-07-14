@@ -1,9 +1,9 @@
-package s18454.diploma.service;
+package mr.danceschool.service;
 
+import mr.danceschool.dao.StudentRepository;
+import mr.danceschool.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import s18454.diploma.dao.StudentRepository;
-import s18454.diploma.entity.Student;
 
 import java.util.Comparator;
 import java.util.List;

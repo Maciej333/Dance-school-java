@@ -1,6 +1,6 @@
-package s18454.diploma.controller.controllerModel;
+package mr.danceschool.controller.controllerModel;
 
-import s18454.diploma.utils.Role;
+import mr.danceschool.utils.Role;
 
 import java.util.Date;
 import java.util.List;

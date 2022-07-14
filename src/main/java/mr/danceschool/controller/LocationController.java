@@ -1,12 +1,12 @@
-package s18454.diploma.controller;
+package mr.danceschool.controller;
 
+import mr.danceschool.controller.controllerModel.ResponseMsg;
+import mr.danceschool.entity.Location;
+import mr.danceschool.service.LocationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import s18454.diploma.controller.controllerModel.ResponseMsg;
-import s18454.diploma.entity.Location;
-import s18454.diploma.service.LocationService;
 
 import java.util.*;
 

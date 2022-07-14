@@ -1,8 +1,8 @@
-package s18454.diploma.entity;
+package mr.danceschool.entity;
 
 import com.fasterxml.jackson.annotation.*;
-import s18454.diploma.utils.DanceLevel;
-import s18454.diploma.utils.Gender;
+import mr.danceschool.utils.DanceLevel;
+import mr.danceschool.utils.Gender;
 
 import javax.persistence.*;
 import java.util.HashSet;

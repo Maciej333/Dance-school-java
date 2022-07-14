@@ -1,4 +1,4 @@
-package s18454.diploma;
+package mr.danceschool;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

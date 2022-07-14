@@ -1,8 +1,8 @@
-package s18454.diploma.service;
+package mr.danceschool.service;
 
-import s18454.diploma.entity.Group;
-import s18454.diploma.entity.GroupChoreo;
-import s18454.diploma.utils.GroupStatus;
+import mr.danceschool.entity.Group;
+import mr.danceschool.entity.GroupChoreo;
+import mr.danceschool.utils.GroupStatus;
 
 import java.util.List;
 
