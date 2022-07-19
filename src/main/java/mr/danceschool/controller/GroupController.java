@@ -231,8 +231,8 @@ public class GroupController {
         }
     }
 
-    @GetMapping("/check_group_user/{groupId}/{studentId}")
-    public ResponseEntity<Boolean> checkGroupUser(@PathVariable long groupId, @PathVariable long studentId){
+    @GetMapping("/check_group_student/{groupId}/{studentId}")
+    public ResponseEntity<Boolean> checkGroupStudent(@PathVariable long groupId, @PathVariable long studentId){
         try {
             Group group = groupService.findById(groupId);
             List<Student> students = group.getStudents().stream()
@@ -248,7 +248,29 @@ public class GroupController {
             }
             return new ResponseEntity(false, HttpStatus.OK);
         }catch(Exception e){
-            System.err.println("[Error] /api/group/check_group_user/{groupId}/{studentId} | "+e.getMessage());
+            System.err.println("[Error] /api/group/check_group_student/{groupId}/{studentId} | "+e.getMessage());
+            return new ResponseEntity(false, HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    @GetMapping("/check_group_instructor/{groupId}/{instructorId}")
+    public ResponseEntity<Boolean> checkGroupInstructor(@PathVariable long groupId, @PathVariable long instructorId){
+        try {
+            Group group = groupService.findById(groupId);
+            List<EmployeeInstructor> instructors = group.getInstructors().stream()
+                    .filter(ins -> {
+                        if(ins.getId() == instructorId){
+                            return true;
+                        }
+                        return false;
+                    })
+                    .toList();
+            if(instructors.size() > 0){
+                return new ResponseEntity(true, HttpStatus.OK);
+            }
+            return new ResponseEntity(false, HttpStatus.OK);
+        }catch(Exception e){
+            System.err.println("[Error] /api/group/check_group_instructor/{groupId}/{instructorId} | "+e.getMessage());
             return new ResponseEntity(false, HttpStatus.BAD_REQUEST);
         }
     }
